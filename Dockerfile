@@ -13,7 +13,7 @@ COPY . .
 WORKDIR /app/src/Web
 RUN dotnet restore
 
-RUN dotnet publish -c Release -o out
+RUN dotnet publish -c Release -o /app
 
 
 WORKDIR /app
