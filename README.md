@@ -12,7 +12,7 @@ WORKDIR /app/src/Web     <b>为</b>   WORKDIR /app/src/WebRazorPages
 
 EXPOSE 5106    <b>为</b>    EXPOSE 5107
 
-ENTRYPOINT ["dotnet", "Web.dll"]        <b>为</b>       ENTRYPOINT ["dotnet", "Web.dll"]
+ENTRYPOINT ["dotnet", "Web.dll"]        <b>为</b>       ENTRYPOINT ["dotnet", "Microsoft.eShopWeb.RazorPages.dll"]
 
 eShopOnWeb中应用了DDD和整洁架构的部分思想,详情请参照文章 [《eShopOnWeb知多少》](https://www.jianshu.com/p/ca6b64b81217)。
 
